@@ -2,6 +2,8 @@
 
 A terminal-based file viewer with markdown support, built with Rust and Ratatui 👨‍🍳🐀.
 
+![](examples/main.png)
+
 ## Features
 
 - **Less-like interface**: Familiar navigation with arrow keys, page up/down, home/end
