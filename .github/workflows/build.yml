@@ -75,7 +75,6 @@ jobs:
         mkdir -p artifacts
         cp target/${{ matrix.target }}/release/${{ matrix.artifact_name }} artifacts/
         cp README.md artifacts/
-        cp config.yml artifacts/
         cp LICENSE artifacts/ 2>/dev/null || echo "LICENSE file not found, skipping"
         tar -czf ${{ matrix.asset_name }}.tar.gz -C artifacts .
 
