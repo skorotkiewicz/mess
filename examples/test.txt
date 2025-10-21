@@ -1,0 +1,41 @@
+This is a simple text file to test the mess application.
+
+It contains multiple lines of text to demonstrate scrolling functionality.
+
+Line 3: Testing basic text viewing
+Line 4: No markdown formatting here
+Line 5: Just plain text content
+Line 6: Perfect for testing source view mode
+Line 7: And scrolling behavior
+Line 8: With arrow keys
+Line 9: And page up/down
+Line 10: And home/end keys
+
+More content to make scrolling more interesting:
+- Item 1
+- Item 2  
+- Item 3
+- Item 4
+- Item 5
+
+Even more lines:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+Nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse.
+Cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident.
+Sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Final lines for testing:
+- Test line 1
+- Test line 2
+- Test line 3
+- Test line 4
+- Test line 5
+- Test line 6
+- Test line 7
+- Test line 8
+- Test line 9
+- Test line 10

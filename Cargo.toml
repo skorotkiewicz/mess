@@ -1,0 +1,15 @@
+[package]
+name = "mess"
+version = "0.1.0"
+description = "A less-like viewer with markdown support"
+authors = ["Sebastian Korotkiewicz <skorotkiewicz@gmail.com>"]
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+color-eyre = "0.6.3"
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+pulldown-cmark = "0.10"
+clap = { version = "4.4", features = ["derive"] }
+atty = "0.2"
