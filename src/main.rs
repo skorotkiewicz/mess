@@ -355,7 +355,7 @@ fn render_single_view(frame: &mut Frame, app_state: &AppState, area: ratatui::la
 
     let paragraph = Paragraph::new(visible_text)
         .block(Block::default().borders(Borders::ALL))
-        .wrap(ratatui::widgets::Wrap { trim: true });
+        .wrap(ratatui::widgets::Wrap { trim: false });
 
     frame.render_widget(paragraph, area);
 
@@ -461,11 +461,11 @@ fn render_side_by_side(frame: &mut Frame, app_state: &AppState, area: ratatui::l
     
     let left_paragraph = Paragraph::new(left_text)
         .block(Block::default().borders(Borders::ALL).title("Rendered"))
-        .wrap(ratatui::widgets::Wrap { trim: true });
+        .wrap(ratatui::widgets::Wrap { trim: false });
     
     let right_paragraph = Paragraph::new(right_text)
         .block(Block::default().borders(Borders::ALL).title("Source"))
-        .wrap(ratatui::widgets::Wrap { trim: true });
+        .wrap(ratatui::widgets::Wrap { trim: false });
     
     frame.render_widget(left_paragraph, columns[0]);
     frame.render_widget(right_paragraph, columns[1]);
